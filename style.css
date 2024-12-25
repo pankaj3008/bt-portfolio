@@ -1,0 +1,1900 @@
+@media screen and (min-width:375px) {
+    *{
+        margin: 0;
+        padding: 0;
+        color: white;
+        box-sizing: border-box;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+    
+    body{
+        background-color: #222239;
+        position: relative;
+    }
+    nav{
+        background-color: #19192bae;
+        width: 100%;
+        height: 40px;
+    
+    }
+    .logo{
+        width: 120px;
+        padding-left: 20px;
+    
+    }
+    
+    ul{
+        list-style-type: none;
+        padding-right: 20px;
+        padding-top: 12px;
+    }
+    
+    li a{
+        text-decoration: none;
+        color: white;
+        padding: 8px;
+        font-size: 10px;
+    }
+    li a:hover{
+        color: #5f54fa;
+    }
+    
+    li:hover{
+        font-weight: 700;
+        transform: scale(1.1);
+    }
+    .sec1{
+        background-color:rgb(41, 43, 65);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 2px solid rgba(128, 128, 128, 0.607);
+        width: 80%;
+        margin-top: 40px !important;
+    }
+    
+    .div1{
+    width: 150px;
+    
+    }
+    
+    h1{
+        font-size: 16px;
+        font-weight: 700;
+        color: rgb(77, 98, 185);
+    }
+    
+    p{
+        font-size: 8px;
+        margin-top: 1px;
+        margin-bottom: 2px;
+        color: rgb(210, 212, 218);
+    }
+    
+    .hire{
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-top: 2px;
+        border: 0px;
+        border-radius: 3px;
+        width: 65px;
+        height: 18px;
+        background: #5f54fa;
+        font-size: 8px;
+        
+    }
+    .hire:hover{
+        background-color: #2d23b4;
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .profile{
+        width: 100px;
+        filter: drop-shadow(0 0 0.75rem rgb(6, 7, 33));
+        opacity: 0.9;
+    }
+    .skill-head{
+        margin-top: 35px !important;
+        font-size: 16px;
+        width: 75%;
+        color: rgb(77, 98, 185);
+        font-weight: 900;
+    }
+    
+    .hr1{
+        border: 0px;
+        opacity: 0.5 !important;
+        height: 3px;
+        background:rgb(186, 195, 232);
+        width: 75%;
+    }
+    /*  */
+    .skill-box{
+        flex-wrap: wrap;
+        width: 85%;
+    }
+    .ri-github-fill{
+        color: rgb(77, 98, 185);
+        font-size: 20px;
+    }
+    .ri-github-fill:hover{
+        color: rgb(44, 72, 183);
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .ri-html5-fill{
+        color: rgb(77, 98, 185);
+        font-size: 20px;
+    }
+    .ri-html5-fill:hover{
+        color: rgb(44, 72, 183);
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .ri-css3-fill{
+        color: rgb(77, 98, 185);
+        font-size: 20px;
+    }
+    .ri-css3-fill:hover{
+        color: rgb(44, 72, 183);
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .box{
+        padding: 8px;
+        background-color: #38385581;
+        margin: 5px;
+        width: 85px;
+        height: 85px;
+        font-size: 8px;
+        margin-top: 15px;
+    }
+    .box:hover{
+        background-color: #2a2a62af;
+        transform: scale(1.05);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .hr{
+        width: 50%;
+        height: 2px;
+        background-color: white;
+        opacity: 0.8;
+    }
+    
+    
+    .project{
+        margin-top: 25px;
+        font-size: 16px;
+        color: rgb(77, 98, 185);
+        width: 65vw;
+        margin-left: 11.5vw;
+        margin-right: 17.5vw;
+        font-weight: 900;
+    }
+    .sec3{
+        width: 80vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    
+    .div22{
+        border-radius: 50px;
+        margin-top: 25PX;
+        width: 60vw;
+        margin-left: 15vw;
+        margin-right: 20.5vw;
+        background-color: #3d3d55;
+    }
+    .div22:hover{
+        background-color: #303068d2;
+    }
+    
+    .ri-github-line{
+        margin: 4.2px;
+        width: 25px;
+        text-align: center;
+        height: 25px;
+        border-radius: 100%;
+        background-color: #240fe3;
+        font-size: 18px;
+        line-height: 28.80px;
+    }
+    .wh{
+        margin: 4.4px;
+        width: 28px;
+        height: 28px;
+        background-color: rgb(138, 178, 246);
+        border-radius: 100%;
+    }
+    .text-project-git{
+        margin-left: 5px;
+        color: rgb(148, 148, 249);
+        font-size: 10px;
+    }
+    .text-project-git:hover{
+        color: rgba(153, 130, 246, 0.908);
+    }
+    .text-project{
+        font-size: 9px;
+        margin-left: 10px;
+        font-weight: 600;
+    }
+    .project-img1{
+        width: 110px;
+        margin: 5px;
+        box-shadow: 0px 0px 20px #3d389b;
+        filter: grayscale(40%);
+    }
+    .project-img1:hover{
+        transform: scale(1.1);
+        filter: grayscale(0%);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .project-img2{
+        width: 70px;
+        margin: 5px;
+        box-shadow: 0px 0px 20px #3d389b;
+        filter: grayscale(30%);
+    }
+    .project-img2:hover{
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+        filter: grayscale(0%)
+    }
+    .project-hr{
+        margin-bottom: 10px;
+        border: 0px;
+        height: 3px;
+        width: 100px;
+        background-color:  rgb(167, 162, 162);
+    }
+    .sec4{
+        width: 65vw;
+        margin-left: 13vw;
+        margin-right: 10vw;
+    }
+    .connect{
+        margin-top: 20px;
+        font-size: 16px;
+        color: rgb(77, 98, 185);
+        font-weight: 900;
+    }
+    .cont-row{
+        margin-top: 15px;
+        flex-wrap: nowrap;
+    }
+    .border{
+        border: 1px solid black;
+        color: white;
+        margin: 20px;
+        width: 360px;
+        height: 30px;
+        font-size: 12px;
+        background-color: #6868cf;
+        line-height: 30px;
+        margin-bottom: 5px;
+        margin-top: 15px;
+    }
+    .ri-mail-fill{
+        color: rgb(13, 10, 204);
+        font-size: 15px;
+        margin-left: 10px;
+        width: 40px;
+        height: 60px;
+        background-color: #6868cf;
+        text-align: center;
+        line-height: 26px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+    
+    .ri-phone-fill{
+        color: rgb(13, 10, 204);
+        font-size: 15px;
+        margin-left: 10px;
+        width: 40px;
+        height: 60px;
+        background-color: #6868cf;
+        text-align: center;
+        line-height: 26px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    
+    }
+    
+    .ri-copyright-fill{
+        font-size: 12px;
+        padding: 5px;
+    }
+    .copy{
+        text-align: center;
+        padding: 5px;
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (min-width:425px) {
+    *{
+        margin: 0;
+        padding: 0;
+        color: white;
+        box-sizing: border-box;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+    
+    body{
+        background-color: #222239;
+        position: relative;
+    }
+    nav{
+        background-color: #19192bae;
+        width: 100%;
+        height: 40px;
+    
+    }
+    .logo{
+        width: 140px;
+        padding-left: 20px;
+    
+    }
+    
+    ul{
+        list-style-type: none;
+        padding-right: 20px;
+        padding-top: 12px;
+    }
+    
+    li a{
+        text-decoration: none;
+        color: white;
+        padding: 8px;
+        font-size: 13px;
+    }
+    li a:hover{
+        color: #5f54fa;
+    }
+    
+    li:hover{
+        font-weight: 700;
+        transform: scale(1.1);
+    }
+    .sec1{
+        background-color:rgb(41, 43, 65);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 2px solid rgba(128, 128, 128, 0.607);
+        width: 80%;
+        margin-top: 40px !important;
+    }
+    
+    .div1{
+    width: 150px;
+    
+    }
+    
+    h1{
+        font-size: 16px;
+        font-weight: 700;
+        color: rgb(77, 98, 185);
+    }
+    
+    p{
+        font-size: 8px;
+        margin-top: 3px;
+        color: rgb(210, 212, 218);
+    }
+    
+    .hire{
+        font-weight: 600;
+        letter-spacing: 3px;
+        margin-top: 5px;
+        border: 0px;
+        border-radius: 3px;
+        width: 85px;
+        height: 25px;
+        background: #5f54fa;
+        font-size: 9px;
+        
+    }
+    .hire:hover{
+        background-color: #2d23b4;
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .profile{
+        width: 125px;
+        filter: drop-shadow(0 0 0.75rem rgb(6, 7, 33));
+        opacity: 0.9;
+    }
+    .skill-head{
+        margin-top: 35px !important;
+        font-size: 16px;
+        width: 75%;
+        color: rgb(77, 98, 185);
+        font-weight: 900;
+    }
+    
+    .hr1{
+        border: 0px;
+        opacity: 0.5 !important;
+        height: 3px;
+        background:rgb(186, 195, 232);
+        width: 75%;
+    }
+    /*  */
+    .skill-box{
+        flex-wrap: wrap;
+        width: 85%;
+    }
+    .ri-github-fill{
+        color: rgb(77, 98, 185);
+        font-size: 20px;
+    }
+    .ri-github-fill:hover{
+        color: rgb(44, 72, 183);
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .ri-html5-fill{
+        color: rgb(77, 98, 185);
+        font-size: 20px;
+    }
+    .ri-html5-fill:hover{
+        color: rgb(44, 72, 183);
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .ri-css3-fill{
+        color: rgb(77, 98, 185);
+        font-size: 20px;
+    }
+    .ri-css3-fill:hover{
+        color: rgb(44, 72, 183);
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .box{
+        padding: 8px;
+        background-color: #38385581;
+        margin: 5px;
+        width: 85px;
+        height: 85px;
+        font-size: 8px;
+        margin-top: 15px;
+    }
+    .box:hover{
+        background-color: #2a2a62af;
+        transform: scale(1.05);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .hr{
+        width: 50%;
+        height: 2px;
+        background-color: white;
+        opacity: 0.8;
+    }
+    
+    
+    .project{
+        margin-top: 25px;
+        font-size: 16px;
+        color: rgb(77, 98, 185);
+        width: 65vw;
+        margin-left: 11.5vw;
+        margin-right: 17.5vw;
+        font-weight: 900;
+    }
+    .sec3{
+        width: 80vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    
+    .div22{
+        border-radius: 50px;
+        margin-top: 25PX;
+        width: 60vw;
+        margin-left: 15vw;
+        margin-right: 20.5vw;
+        background-color: #3d3d55;
+    }
+    .div22:hover{
+        background-color: #303068d2;
+    }
+    
+    .ri-github-line{
+        margin: 4.2px;
+        width: 25px;
+        text-align: center;
+        height: 25px;
+        border-radius: 100%;
+        background-color: #240fe3;
+        font-size: 18px;
+        line-height: 28.80px;
+    }
+    .wh{
+        margin: 4.4px;
+        width: 28px;
+        height: 28px;
+        background-color: rgb(138, 178, 246);
+        border-radius: 100%;
+    }
+    .text-project-git{
+        margin-left: 5px;
+        color: rgb(148, 148, 249);
+        font-size: 10px;
+    }
+    .text-project-git:hover{
+        color: rgba(153, 130, 246, 0.908);
+    }
+    .text-project{
+        font-size: 9px;
+        margin-left: 10px;
+        font-weight: 600;
+    }
+    .project-img1{
+        width: 110px;
+        margin: 5px;
+        box-shadow: 0px 0px 20px #3d389b;
+        filter: grayscale(40%);
+    }
+    .project-img1:hover{
+        transform: scale(1.1);
+        filter: grayscale(0%);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .project-img2{
+        width: 70px;
+        margin: 5px;
+        box-shadow: 0px 0px 20px #3d389b;
+        filter: grayscale(30%);
+    }
+    .project-img2:hover{
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+        filter: grayscale(0%)
+    }
+    .project-hr{
+        margin-bottom: 10px;
+        border: 0px;
+        height: 3px;
+        width: 100px;
+        background-color:  rgb(167, 162, 162);
+    }
+    .sec4{
+        width: 65vw;
+        margin-left: 13vw;
+        margin-right: 10vw;
+    }
+    .connect{
+        margin-top: 20px;
+        font-size: 16px;
+        color: rgb(77, 98, 185);
+        font-weight: 900;
+    }
+    .cont-row{
+        margin-top: 15px;
+        flex-wrap: nowrap;
+    }
+    .border{
+        border: 1px solid black;
+        color: white;
+        margin: 20px;
+        width: 360px;
+        height: 30px;
+        font-size: 12px;
+        background-color: #6868cf;
+        line-height: 30px;
+        margin-bottom: 5px;
+        margin-top: 15px;
+    }
+    .ri-mail-fill{
+        color: rgb(13, 10, 204);
+        font-size: 15px;
+        margin-left: 10px;
+        width: 40px;
+        height: 60px;
+        background-color: #6868cf;
+        text-align: center;
+        line-height: 26px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+    
+    .ri-phone-fill{
+        color: rgb(13, 10, 204);
+        font-size: 15px;
+        margin-left: 10px;
+        width: 40px;
+        height: 60px;
+        background-color: #6868cf;
+        text-align: center;
+        line-height: 26px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    
+    }
+    
+    .ri-copyright-fill{
+        font-size: 12px;
+        padding: 5px;
+    }
+    .copy{
+        text-align: center;
+        padding: 5px;
+        font-size: 10px;
+    }
+    
+}
+
+
+@media screen and (min-width:768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        color: white;
+        box-sizing: border-box;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+    
+    body{
+        background-color: #222239;
+        position: relative;
+    }
+    nav{
+        background-color: #19192bae;
+        width: 100%;
+        height: 60px;
+    
+    }
+    .logo{
+        width: 210px;
+        padding-left: 40px;
+    
+    }
+    
+    ul{
+        list-style-type: none;
+        padding-right: 40px;
+        padding-top: 12px;
+    }
+    
+    li a{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        font-size: 16px;
+    }
+    li a:hover{
+        color: #5f54fa;
+    }
+    
+    li:hover{
+        font-weight: 700;
+        transform: scale(1.1);
+    }
+    .sec1{
+        background-color:rgb(41, 43, 65);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 2px solid rgba(128, 128, 128, 0.607);
+        width: 90%;
+        margin-top: 60px !important;
+    }
+    
+    .div1{
+    width: 250px;
+    
+    }
+    
+    h1{
+        font-size: 30px;
+        font-weight: 700;
+        color: rgb(77, 98, 185);
+    }
+    
+    p{
+        font-size: 16px;
+        margin-top: 16px;
+        color: rgb(210, 212, 218);
+    }
+    
+    .hire{
+        font-weight: 600;
+        letter-spacing: 3px;
+        margin-top: 12px;
+        border: 0px;
+        border-radius: 5px;
+        width: 130px;
+        height: 40px;
+        background: #5f54fa;
+        font-size: 16px;
+        
+    }
+    .hire:hover{
+        background-color: #2d23b4;
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .profile{
+        width: 250px;
+        filter: drop-shadow(0 0 0.75rem rgb(6, 7, 33));
+        opacity: 0.9;
+    }
+    .skill-head{
+        margin-top: 60px !important;
+        font-size: 30px;
+        width: 75%;
+        color: rgb(77, 98, 185);
+        font-weight: 900;
+    }
+    
+    .hr1{
+        border: 0px;
+        opacity: 0.5 !important;
+        height: 3px;
+        background:rgb(186, 195, 232);
+        width: 75%;
+    }
+    /*  */
+    .skill-box{
+        flex-wrap: wrap;
+        width: 80%;
+    }
+    .ri-github-fill{
+        color: rgb(77, 98, 185);
+        font-size: 50px;
+    }
+    .ri-github-fill:hover{
+        color: rgb(44, 72, 183);
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .ri-html5-fill{
+        color: rgb(77, 98, 185);
+        font-size: 50px;
+    }
+    .ri-html5-fill:hover{
+        color: rgb(44, 72, 183);
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .ri-css3-fill{
+        color: rgb(77, 98, 185);
+        font-size: 50px;
+    }
+    .ri-css3-fill:hover{
+        color: rgb(44, 72, 183);
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .box{
+        padding: 3px;
+        background-color: #38385581;
+        margin: 10px;
+        width: 150px;
+        height: 150px;
+        font-size: 13px;
+        margin-top: 25px;
+    }
+    .box:hover{
+        background-color: #2a2a62af;
+        transform: scale(1.05);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .hr{
+        width: 50%;
+        height: 2px;
+        background-color: white;
+        opacity: 0.8;
+    }
+    
+    
+    .project{
+        margin-top: 65px;
+        font-size: 30px;
+        color: rgb(77, 98, 185);
+        width: 65vw;
+        margin-left: 11.5vw;
+        margin-right: 17.5vw;
+        font-weight: 900;
+    }
+    .sec3{
+        width: 80vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    
+    .div22{
+        border-radius: 50px;
+        margin-top: 100PX;
+        width: 55vw;
+        margin-left: 19.5vw;
+        margin-right: 20.5vw;
+        background-color: #3d3d55;
+    }
+    .div22:hover{
+        background-color: #303068d2;
+    }
+    
+    .ri-github-line{
+        margin: 4.2px;
+        width: 40px;
+        text-align: center;
+        height: 40px;
+        border-radius: 100%;
+        background-color: #240fe3;
+        font-size: 25px;
+        line-height: 38.80px;
+    }
+    .wh{
+        margin: 4.4px;
+        width: 38px;
+        height: 38px;
+        background-color: rgb(138, 178, 246);
+        border-radius: 100%;
+    }
+    .text-project-git{
+        margin-left: 5px;
+        color: rgb(148, 148, 249);
+        font-size: 15px;
+    }
+    .text-project-git:hover{
+        color: rgba(153, 130, 246, 0.908);
+    }
+    .text-project{
+        font-size: 13px;
+        margin-left: 15px;
+        font-weight: 600;
+    }
+    .project-img1{
+        width: 220px;
+        margin: 10px;
+        box-shadow: 0px 0px 20px #3d389b;
+        filter: grayscale(40%);
+    }
+    .project-img1:hover{
+        transform: scale(1.1);
+        filter: grayscale(0%);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .project-img2{
+        width: 145px;
+        margin: 10px;
+        box-shadow: 0px 0px 20px #3d389b;
+        filter: grayscale(30%);
+    }
+    .project-img2:hover{
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+        filter: grayscale(0%)
+    }
+    .project-hr{
+        margin-bottom: 10px;
+        border: 0px;
+        height: 3px;
+        width: 100px;
+        background-color:  rgb(167, 162, 162);
+    }
+    .sec4{
+        width: 65vw;
+        margin-left: 13vw;
+        margin-right: 10vw;
+    }
+    .connect{
+        margin-top: 40px;
+        font-size: 30px;
+        color: rgb(77, 98, 185);
+        font-weight: 900;
+    }
+    .cont-row{
+        margin-top: 15px;
+        flex-wrap: nowrap;
+    }
+    .border{
+        border: 1px solid black;
+        color: white;
+        margin: 20px;
+        width: 360px;
+        height: 50px;
+        font-size: 17px;
+        background-color: #6868cf;
+        line-height: 30px;
+        margin-bottom: 5px;
+        margin-top: 15px;
+    }
+    .ri-mail-fill{
+        color: rgb(13, 10, 204);
+        font-size: 25px;
+        margin-left: 10px;
+        width: 40px;
+        height: 60px;
+        background-color: #6868cf;
+        text-align: center;
+        line-height: 45px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+    
+    .ri-phone-fill{
+        color: rgb(13, 10, 204);
+        font-size: 25px;
+        margin-left: 10px;
+        width: 50px;
+        height: 60px;
+        background-color: #6868cf;
+        text-align: center;
+        line-height: 45px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    
+    }
+    
+    .ri-copyright-fill{
+        font-size: 18px;
+        padding: 5px;
+    }
+    .copy{
+        text-align: center;
+        padding: 10px;
+        font-size: 16px;
+    }
+    
+}
+
+
+@media screen and (min-width:1024px) {
+    *{
+        margin: 0;
+        padding: 0;
+        color: white;
+        box-sizing: border-box;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+    
+    body{
+        background-color: #222239;
+        position: relative;
+    }
+    nav{
+        background-color: #19192bae;
+        width: 100%;
+        height: 60px;
+    
+    }
+    .logo{
+        width: 250px;
+        padding-left: 40px;
+    
+    }
+    
+    ul{
+        list-style-type: none;
+        padding-right: 40px;
+        padding-top: 12px;
+    }
+    
+    li a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        font-size: 20px;
+    }
+    li a:hover{
+        color: #5f54fa;
+    }
+    
+    li:hover{
+        font-weight: 700;
+        transform: scale(1.1);
+    }
+    .sec1{
+        background-color:rgb(41, 43, 65);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 2px solid rgba(128, 128, 128, 0.607);
+        width: 90%;
+        margin-top: 60px !important;
+    }
+    
+    .div1{
+    width: 300px;
+    
+    }
+    
+    h1{
+        font-size: 40px;
+        font-weight: 700;
+        color: rgb(77, 98, 185);
+    }
+    
+    p{
+        font-size: 18px;
+        margin-top: 18px;
+        color: rgb(210, 212, 218);
+    }
+    
+    .hire{
+        font-weight: 600;
+        letter-spacing: 3px;
+        margin-top: 12px;
+        border: 0px;
+        border-radius: 5px;
+        width: 150px;
+        height: 45px;
+        background: #5f54fa;
+        font-size: 18px;
+        
+    }
+    .hire:hover{
+        background-color: #2d23b4;
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .profile{
+        width: 325px;
+        filter: drop-shadow(0 0 0.75rem rgb(6, 7, 33));
+        opacity: 0.9;
+    }
+    .skill-head{
+        margin-top: 60px !important;
+        font-size: 40px;
+        width: 75%;
+        color: rgb(77, 98, 185);
+        font-weight: 900;
+    }
+    
+    .hr1{
+        border: 0px;
+        opacity: 0.5 !important;
+        height: 3px;
+        background:rgb(186, 195, 232);
+        width: 75%;
+    }
+    /*  */
+    .skill-box{
+        flex-wrap: wrap;
+        width: 75%;
+    }
+    .ri-github-fill{
+        color: rgb(77, 98, 185);
+        font-size: 60px;
+    }
+    .ri-github-fill:hover{
+        color: rgb(44, 72, 183);
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .ri-html5-fill{
+        color: rgb(77, 98, 185);
+        font-size: 60px;
+    }
+    .ri-html5-fill:hover{
+        color: rgb(44, 72, 183);
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .ri-css3-fill{
+        color: rgb(77, 98, 185);
+        font-size: 60px;
+    }
+    .ri-css3-fill:hover{
+        color: rgb(44, 72, 183);
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .box{
+        padding: 8px;
+        background-color: #38385581;
+        margin: 18px;
+        width: 180px;
+        height: 180px;
+        font-size: 15px;
+        margin-top: 65px;
+    }
+    .box:hover{
+        background-color: #2a2a62af;
+        transform: scale(1.05);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .hr{
+        width: 50%;
+        height: 2px;
+        background-color: white;
+        opacity: 0.8;
+    }
+    
+    
+    .project{
+        margin-top: 65px;
+        font-size: 40px;
+        color: rgb(77, 98, 185);
+        width: 65vw;
+        margin-left: 11.5vw;
+        margin-right: 17.5vw;
+        font-weight: 900;
+    }
+    .sec3{
+        width: 80vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    
+    .div22{
+        border-radius: 50px;
+        margin-top: 100PX;
+        width: 40vw;
+        margin-left: 25.5vw;
+        margin-right: 30.5vw;
+        background-color: #3d3d55;
+    }
+    .div22:hover{
+        background-color: #303068d2;
+    }
+    
+    .ri-github-line{
+        margin: 4.2px;
+        width: 40px;
+        text-align: center;
+        height: 40px;
+        border-radius: 100%;
+        background-color: #240fe3;
+        font-size: 25px;
+        line-height: 38.80px;
+    }
+    .wh{
+        margin: 4.4px;
+        width: 38px;
+        height: 38px;
+        background-color: rgb(138, 178, 246);
+        border-radius: 100%;
+    }
+    .text-project-git{
+        margin-left: 5px;
+        color: rgb(148, 148, 249);
+        font-size: 18px;
+    }
+    .text-project-git:hover{
+        color: rgba(153, 130, 246, 0.908);
+    }
+    .text-project{
+        font-size: 13px;
+        margin-left: 15px;
+        font-weight: 600;
+    }
+    .project-img1{
+        width: 220px;
+        margin: 10px;
+        box-shadow: 0px 0px 20px #3d389b;
+        filter: grayscale(40%);
+    }
+    .project-img1:hover{
+        transform: scale(1.1);
+        filter: grayscale(0%);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .project-img2{
+        width: 145px;
+        margin: 10px;
+        box-shadow: 0px 0px 20px #3d389b;
+        filter: grayscale(30%);
+    }
+    .project-img2:hover{
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+        filter: grayscale(0%)
+    }
+    .project-hr{
+        margin-bottom: 10px;
+        border: 0px;
+        height: 3px;
+        width: 100px;
+        background-color:  rgb(167, 162, 162);
+    }
+    .sec4{
+        width: 65vw;
+        margin-left: 13vw;
+        margin-right: 10vw;
+    }
+    .connect{
+        margin-top: 40px;
+        font-size: 40px;
+        color: rgb(77, 98, 185);
+        font-weight: 900;
+    }
+    .cont-row{
+        margin-top: 15px;
+        flex-wrap: nowrap;
+    }
+    .border{
+        border: 1px solid black;
+        color: white;
+        margin: 20px;
+        width: 360px;
+        height: 50px;
+        font-size: 17px;
+        background-color: #6868cf;
+        line-height: 30px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+    .ri-mail-fill{
+        color: rgb(13, 10, 204);
+        font-size: 25px;
+        margin-left: 10px;
+        width: 40px;
+        height: 60px;
+        background-color: #6868cf;
+        text-align: center;
+        line-height: 45px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+    
+    .ri-phone-fill{
+        color: rgb(13, 10, 204);
+        font-size: 25px;
+        margin-left: 10px;
+        width: 50px;
+        height: 60px;
+        background-color: #6868cf;
+        text-align: center;
+        line-height: 45px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    
+    }
+    
+    .ri-copyright-fill{
+        font-size: 18px;
+        padding: 5px;
+    }
+    .copy{
+        text-align: center;
+        padding: 10px;
+        font-size: 16px;
+    }
+    
+}
+
+
+@media screen and (min-width:1440px) {
+    *{
+        margin: 0;
+        padding: 0;
+        color: white;
+        box-sizing: border-box;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+    
+    body{
+        background-color: #222239;
+        position: relative;
+    }
+    nav{
+        background-color: #19192bae;
+        width: 100%;
+        height: 70px;
+    
+    }
+    .logo{
+        width: 300px;
+        padding-left: 50px;
+    
+    }
+    
+    ul{
+        list-style-type: none;
+        padding-right: 50px;
+        padding-top: 19px;
+    }
+    
+    li a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        font-size: 25px;
+    }
+    li a:hover{
+        color: #5f54fa;
+    }
+    
+    li:hover{
+        font-weight: 700;
+        transform: scale(1.1);
+    }
+    .sec1{
+        background-color:rgb(41, 43, 65);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 2px solid rgba(128, 128, 128, 0.607);
+        width: 90%;
+        margin-top: 70px !important;
+    }
+    
+    .div1{
+    width: 450px;
+    
+    }
+    
+    h1{
+        font-size: 50px;
+        font-weight: 700;
+        color: rgb(77, 98, 185);
+    }
+    
+    p{
+        font-size: 20px;
+        margin-top: 20px;
+        color: rgb(210, 212, 218);
+    }
+    
+    .hire{
+        font-weight: 600;
+        letter-spacing: 3px;
+        margin-top: 15px;
+        border: 0px;
+        border-radius: 5px;
+        width: 180px;
+        height: 50px;
+        background: #5f54fa;
+        font-size: 20px;
+        
+    }
+    .hire:hover{
+        background-color: #2d23b4;
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .profile{
+        width: 370px;
+        filter: drop-shadow(0 0 0.75rem rgb(6, 7, 33));
+        opacity: 0.9;
+    }
+    .skill-head{
+        margin-top: 80px !important;
+        font-size: 50px;
+        width: 75%;
+        color: rgb(77, 98, 185);
+        font-weight: 900;
+    }
+    
+    .hr1{
+        border: 0px;
+        opacity: 0.5 !important;
+        height: 4px;
+        background:rgb(186, 195, 232);
+        width: 75%;
+    }
+    /*  */
+    .skill-box{
+        flex-wrap: wrap;
+        width: 75%;
+    }
+    .ri-github-fill{
+        color: rgb(77, 98, 185);
+        font-size: 80px;
+    }
+    .ri-github-fill:hover{
+        color: rgb(44, 72, 183);
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .ri-html5-fill{
+        color: rgb(77, 98, 185);
+        font-size: 80px;
+    }
+    .ri-html5-fill:hover{
+        color: rgb(44, 72, 183);
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .ri-css3-fill{
+        color: rgb(77, 98, 185);
+        font-size: 80px;
+    }
+    .ri-css3-fill:hover{
+        color: rgb(44, 72, 183);
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .box{
+        padding: 25px;
+        background-color: #38385581;
+        margin: 25px;
+        width: 250px;
+        height: 250px;
+        font-size: 20px;
+        margin-top: 75px;
+    }
+    .box:hover{
+        background-color: #2a2a62af;
+        transform: scale(1.05);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .hr{
+        width: 50%;
+        height: 2px;
+        background-color: white;
+        opacity: 0.8;
+    }
+    
+    
+    .project{
+        margin-top: 85px;
+        font-size: 40px;
+        color: rgb(77, 98, 185);
+        width: 65vw;
+        margin-left: 10.5vw;
+        margin-right: 17.5vw;
+        font-weight: 900;
+    }
+    .sec3{
+        width: 60vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    
+    .div22{
+        border-radius: 50px;
+        margin-top: 100PX;
+        width: 24vw;
+        margin-left: 30.5vw;
+        margin-right: 30.5vw;
+        background-color: #3d3d55;
+    }
+    .div22:hover{
+        background-color: #303068d2;
+    }
+    
+    .ri-github-line{
+        margin: 4.2px;
+        width: 40px;
+        text-align: center;
+        height: 40px;
+        border-radius: 100%;
+        background-color: #240fe3;
+        font-size: 28px;
+        line-height: 38.80px;
+    }
+    .wh{
+        margin: 4.4px;
+        width: 38px;
+        height: 38px;
+        background-color: rgb(138, 178, 246);
+        border-radius: 100%;
+    }
+    .text-project-git{
+        margin-left: 5px;
+        color: rgb(148, 148, 249);
+        font-size: 15px;
+    }
+    .text-project-git:hover{
+        color: rgba(153, 130, 246, 0.908);
+    }
+    .text-project{
+        font-size: 20px;
+        margin-left: 20px;
+        font-weight: 600;
+    }
+    .project-img1{
+        width: 290px;
+        margin: 20px;
+        box-shadow: 0px 0px 20px #3d389b;
+        filter: grayscale(40%);
+    }
+    .project-img1:hover{
+        transform: scale(1.1);
+        filter: grayscale(0%);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .project-img2{
+        width: 185px;
+        margin: 20px;
+        box-shadow: 0px 0px 20px #3d389b;
+        filter: grayscale(30%);
+    }
+    .project-img2:hover{
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+        filter: grayscale(0%)
+    }
+    .project-hr{
+        margin-bottom: 10px;
+        border: 0px;
+        height: 3px;
+        width: 100px;
+        background-color:  rgb(167, 162, 162);
+    }
+    .sec4{
+        width: 65vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    .connect{
+        margin-top: 50px;
+        font-size: 45px;
+        color: rgb(77, 98, 185);
+        font-weight: 900;
+    }
+    .cont-row{
+        margin-top: 20px;
+        flex-wrap: nowrap;
+    }
+    .border{
+        border: 1px solid black;
+        color: white;
+        margin: 20px;
+        width: 350px;
+        height: 65px;
+        font-size: 20px;
+        background-color: #6868cf;
+        line-height: 60px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+    .ri-mail-fill{
+        color: rgb(13, 10, 204);
+        font-size: 33px;
+        margin-left: 20px;
+        width: 40px;
+        height: 60px;
+        background-color: #6868cf;
+        text-align: center;
+        line-height: 60px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+    
+    .ri-phone-fill{
+        color: rgb(13, 10, 204);
+        font-size: 33px;
+        margin-left: 20px;
+        width: 50px;
+        height: 60px;
+        background-color: #6868cf;
+        text-align: center;
+        line-height: 60px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    
+    }
+    
+    .ri-copyright-fill{
+        font-size: 18px;
+        padding: 5px;
+    }
+    .copy{
+        text-align: center;
+        padding: 10px;
+        font-size: 16px;
+    }
+    
+}
+
+
+
+@media screen and (min-width:2560px) {
+    *{
+        margin: 0;
+        padding: 0;
+        color: white;
+        box-sizing: border-box;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+    
+    body{
+        background-color: #222239;
+        position: relative;
+    }
+    nav{
+        background-color: #19192bae;
+        width: 100%;
+        height: 100px;
+    
+    }
+    .logo{
+        width: 700px;
+        padding-left: 350px;
+    
+    }
+    
+    ul{
+        list-style-type: none;
+        padding-right: 350px;
+        padding-top: 19px;
+    }
+    
+    li a{
+        text-decoration: none;
+        color: white;
+        padding: 30px;
+        font-size: 35px;
+    }
+    li a:hover{
+        color: #5f54fa;
+    }
+    
+    li:hover{
+        font-weight: 700;
+        transform: scale(1.1);
+    }
+    .sec1{
+        background-color:rgb(41, 43, 65);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 2px solid rgba(128, 128, 128, 0.607);
+        width: 90%;
+        margin-top: 70px !important;
+    }
+    
+    .div1{
+    width: 450px;
+    
+    }
+    
+    h1{
+        font-size: 50px;
+        font-weight: 700;
+        color: rgb(77, 98, 185);
+    }
+    
+    p{
+        font-size: 20px;
+        margin-top: 20px;
+        color: rgb(210, 212, 218);
+    }
+    
+    .hire{
+        font-weight: 600;
+        letter-spacing: 3px;
+        margin-top: 15px;
+        border: 0px;
+        border-radius: 5px;
+        width: 180px;
+        height: 50px;
+        background: #5f54fa;
+        font-size: 20px;
+        
+    }
+    .hire:hover{
+        background-color: #2d23b4;
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .profile{
+        width: 370px;
+        filter: drop-shadow(0 0 0.75rem rgb(6, 7, 33));
+        opacity: 0.9;
+    }
+    .skill-head{
+        margin-top: 80px !important;
+        font-size: 50px;
+        width: 75%;
+        color: rgb(77, 98, 185);
+        font-weight: 900;
+    }
+    
+    .hr1{
+        border: 0px;
+        opacity: 0.5 !important;
+        height: 4px;
+        background:rgb(186, 195, 232);
+        width: 75%;
+    }
+    /*  */
+    .skill-box{
+        flex-wrap: wrap;
+        width: 75%;
+    }
+    .ri-github-fill{
+        color: rgb(77, 98, 185);
+        font-size: 80px;
+    }
+    .ri-github-fill:hover{
+        color: rgb(44, 72, 183);
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .ri-html5-fill{
+        color: rgb(77, 98, 185);
+        font-size: 80px;
+    }
+    .ri-html5-fill:hover{
+        color: rgb(44, 72, 183);
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .ri-css3-fill{
+        color: rgb(77, 98, 185);
+        font-size: 80px;
+    }
+    .ri-css3-fill:hover{
+        color: rgb(44, 72, 183);
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .box{
+        padding: 25px;
+        background-color: #38385581;
+        margin: 25px;
+        width: 250px;
+        height: 250px;
+        font-size: 20px;
+        margin-top: 75px;
+    }
+    .box:hover{
+        background-color: #2a2a62af;
+        transform: scale(1.05);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .hr{
+        width: 50%;
+        height: 2px;
+        background-color: white;
+        opacity: 0.8;
+    }
+    
+    
+    .project{
+        margin-top: 85px;
+        font-size: 50px;
+        color: rgb(77, 98, 185);
+        width: 65vw;
+        margin-left: 6vw;
+        margin-right: 17.5vw;
+        font-weight: 900;
+    }
+    .sec3{
+        width: 42vw;
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+    
+    .div22{
+        border-radius: 50px;
+        margin-top: 100PX;
+        width: 24vw;
+        margin-left: 10.5vw;
+        margin-right: 10.5vw;
+        background-color: #3d3d55;
+    }
+    .div22:hover{
+        background-color: #303068d2;
+    }
+    
+    .ri-github-line{
+        margin: 4.2px;
+        width: 40px;
+        text-align: center;
+        height: 40px;
+        border-radius: 100%;
+        background-color: #240fe3;
+        font-size: 28px;
+        line-height: 38.80px;
+    }
+    .wh{
+        margin: 4.4px;
+        width: 38px;
+        height: 38px;
+        background-color: rgb(138, 178, 246);
+        border-radius: 100%;
+    }
+    .text-project-git{
+        margin-left: 5px;
+        color: rgb(148, 148, 249);
+        font-size: 15px;
+    }
+    .text-project-git:hover{
+        color: rgba(153, 130, 246, 0.908);
+    }
+    .text-project{
+        font-size: 20px;
+        margin-left: 20px;
+        font-weight: 600;
+    }
+    .project-img1{
+        width: 290px;
+        margin: 20px;
+        box-shadow: 0px 0px 20px #3d389b;
+        filter: grayscale(40%);
+    }
+    .project-img1:hover{
+        transform: scale(1.1);
+        filter: grayscale(0%);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .project-img2{
+        width: 185px;
+        margin: 20px;
+        box-shadow: 0px 0px 20px #3d389b;
+        filter: grayscale(30%);
+    }
+    .project-img2:hover{
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+        filter: grayscale(0%)
+    }
+    .project-hr{
+        margin-bottom: 10px;
+        border: 0px;
+        height: 3px;
+        width: 100px;
+        background-color:  rgb(167, 162, 162);
+    }
+    .sec4{
+        width: 40vw;
+        margin-left: 6vw;
+        margin-right: 6vw;
+    }
+    .connect{
+        margin-top: 50px;
+        font-size: 50px;
+        color: rgb(77, 98, 185);
+        font-weight: 900;
+    }
+    .cont-row{
+        margin-top: 20px;
+        flex-wrap: nowrap;
+    }
+    .border{
+        border: 1px solid black;
+        color: white;
+        margin: 20px;
+        width: 350px;
+        height: 65px;
+        font-size: 20px;
+        background-color: #6868cf;
+        line-height: 60px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+    .ri-mail-fill{
+        color: rgb(13, 10, 204);
+        font-size: 33px;
+        margin-left: 20px;
+        width: 40px;
+        height: 60px;
+        background-color: #6868cf;
+        text-align: center;
+        line-height: 60px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+    
+    .ri-phone-fill{
+        color: rgb(13, 10, 204);
+        font-size: 33px;
+        margin-left: 20px;
+        width: 50px;
+        height: 60px;
+        background-color: #6868cf;
+        text-align: center;
+        line-height: 60px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    
+    }
+    
+    .ri-copyright-fill{
+        font-size: 18px;
+        padding: 5px;
+    }
+    .copy{
+        text-align: center;
+        padding: 10px;
+        font-size: 16px;
+    }
+}
